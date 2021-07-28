@@ -70,6 +70,12 @@
         margin: 0 .2em;
         color: inherit;
         text-decoration: none;
+        padding: .2em .8em;
+        &.active {
+          border: 1px solid #ACD9B2;
+          color: #ACD9B2;
+          border-radius: 5px;
+        }
       }
     }
   }
