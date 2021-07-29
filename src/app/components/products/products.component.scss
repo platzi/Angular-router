@@ -7,7 +7,7 @@
 .product-detail {
   position: fixed;
   top: 0;
-  left: 60%;
+  left: 50%;
   bottom: 0;
   right: 0;
   background: white;
@@ -16,6 +16,8 @@
   justify-content: flex-start;
   transition: all ease-out .5s;
   transform: translateX(100%);
+  box-shadow: 0px 0px 5px rgba(black,.5);
+	padding: 1em 2em;
   &.active {
     transform: translateX(0);
   }

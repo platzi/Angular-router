@@ -1,0 +1,17 @@
+<div class="page-product">
+  <button (click)="goToBack()">Back</button>
+  <div class="detail" *ngIf="product">
+    <div class="gallery">
+      <swiper [slidesPerView]='1'>
+        <ng-template swiperSlide *ngFor="let img of product?.images">
+          <img [src]="img" alt="img">
+        </ng-template>
+      </swiper>
+    </div>
+    <div>
+      <h1>{{ product?.title }}</h1>
+      <h2>{{ product?.price | currency }}</h2>
+      <p>{{ product?.description }}</p>
+    </div>
+  </div>
+</div>
