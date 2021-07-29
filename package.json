@@ -21,6 +21,7 @@
     "@angular/router": "~12.1.2",
     "date-fns": "^2.23.0",
     "file-saver": "^2.0.5",
+    "ngx-quicklink": "^0.2.7",
     "rxjs": "~6.6.0",
     "swiper": "^6.8.0",
     "tslib": "^2.2.0",
