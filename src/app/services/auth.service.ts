@@ -36,4 +36,8 @@ export class AuthService {
       switchMap(() => this.getProfile()),
     )
   }
+
+  logout() {
+    this.tokenService.removeToken();
+  }
 }
